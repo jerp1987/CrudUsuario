@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Usuarios</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h2>Gestión de Usuarios</h2>
+
+    <form id="usuarioForm">
+        <input type="hidden" id="id"> <!-- Campo oculto para actualización -->
+        <input type="text" id="nombre" placeholder="Nombre" required>
+        <input type="text" id="apellido" placeholder="Apellido" required>
+        <input type="email" id="correo" placeholder="Correo" required>
+        <input type="text" id="cedula" placeholder="Cédula" required>
+        <button type="submit" id="guardarUsuario">Guardar Usuario</button>
+        <button type="button" id="actualizarUsuario" style="display: none;">Actualizar Usuario</button>
+    </form>
+
+    <h3>Lista de Usuarios</h3>
+    <table id="usuariosTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Correo</th>
+                <th>Cédula</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody id="usuariosTableBody">
+            <!-- Usuarios dinámicos -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

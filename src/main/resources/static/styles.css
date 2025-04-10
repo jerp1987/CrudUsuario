@@ -1,0 +1,34 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.editar {
+    background-color: #ffc107;
+    color: black;
+}
+
+.eliminar {
+    background-color: #dc3545;
+    color: white;
+}
+
+
+
